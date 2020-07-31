@@ -5,7 +5,7 @@ import hashlib
 import base64 as b64
 
 
-class EncrypLib(object):
+class EncryptLib(object):
 
     @staticmethod
     def _init_(data):
@@ -33,4 +33,4 @@ class EncrypLib(object):
         return str(b64.b64encode(self._init_(data)), 'UTF-8')
 
 
-ep = EncrypLib()
+et = EncryptLib()
